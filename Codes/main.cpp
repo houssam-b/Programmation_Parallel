@@ -86,7 +86,7 @@ int main(int argc, char **argv) {
    
     for (int i = 0; i < nprocs; i++) {
         if (pid == i) {
-            std::cout << "\n=================================================================================" << std::endl;
+            std::cout << "\n================================================================================" << std::endl;
             std::cout << "PROCESSUS " << pid<<"\n";
             affichageTerrainLocal(ligne_procs+2, nb_cols, &terrain_local[0]);
             
